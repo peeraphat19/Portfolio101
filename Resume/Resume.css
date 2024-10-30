@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url(/Font/Kanit/Kanit-Regular.ttf);
+}
+
+body {
+    font-family: 'kanit';
+    background-color: #333333 !important;
+}
+
+/* Bar */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #235aa8 !important; /* Link hover effect */
+}
+
+/* Page */
+
+.Page {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 600px;
+    height: 830px;
+    margin: 0 auto;
+    border: 1px solid rgb(172, 190, 206);
+}
+
+/* Left */
+
+.column1 {
+    background-color: #235aa8;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.c-left {
+    color: white;
+}
+
+.c-left .header {
+    border-bottom: 1px solid;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.c-left .sub-detail {
+    font-size: smaller;
+    margin-bottom: 15px;
+} 
+
+/* Right */
+
+.column2 {
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.c-right {
+    color: #323b4b;
+}
+
+.c-right .header {
+    color: #e7b65c;
+    padding-top: 10px;
+}
+
+.c-right .sub-detail {
+    font-size: smaller;
+}
+
+/* Other */
+
+.e-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.e-pic .pic-me {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name-me {
+    padding: 20px;
+    margin: 0;
+    border-bottom: 2px solid #e7b65c;
+}
+
+.detail {
+    margin-top: 0px;
+}
+
+.detail .header {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.detail .sub-detail {
+    margin: 0px;
+}

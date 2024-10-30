@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Tiny';
+    src: url(/Font/Tiny5/Tiny5-Regular.ttf);
+}
+
+h1, h4, a, .btn {
+    font-family: 'Tiny';
+}

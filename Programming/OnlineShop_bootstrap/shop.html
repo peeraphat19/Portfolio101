@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+
+    <link rel="stylesheet" href="shop.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
+    />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg"
+      style="border: 1px solid rgb(197, 196, 196)"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="main.html" style="color: black"
+          >JingJai Shop</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="border: 1px solid rgb(197, 196, 196)"
+        >
+          <span class="material-symbols-outlined" style="opacity: 0.3"
+            >filter_list</span
+          >
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="main.html"
+                style="color: black"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html" style="color: black">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="promotion.html" style="color: black"
+                >Promotion</a
+              >
+            </li>
+          </ul>
+          <div class="d-flex">
+            <a
+              href="signup.html"
+              class="btn btn-primary"
+              style="
+                color: white;
+                background-color: #ff6347;
+                border-color: #fffde7;
+              "
+              >Sign Up</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="product-store py-4">
+      <div
+        class="display-header d-flex align-items-center justify-content-between"
+      >
+        <h1 class="section-title text-uppercase container-fluid">
+          Featured Products
+        </h1>
+        <div class="btn-right">
+          <a
+            href="shop.html"
+            class="d-inline-block text-uppercase text-hover fw-bold"
+            style="color: #f7b2a9"
+            >View all</a
+          >
+        </div>
+      </div>
+      <div class="container py-4">
+        <div class="product-content padding-small">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3">
+
+            <!-- Product 1 -->
+            <div class="col mb-4">
+              <div class="product-card">
+                <div class="card-img">
+                  <img
+                    src="/Programming/OnlineShop_bootstrap/pic/Moon.jpg"
+                    alt="MOON NO.1"
+                    class="product-image img-fluid"
+                  />
+                </div>
+                <div
+                  class="card-detail d-flex justify-content-between align-items-center mt-3"
+                >
+                  <h3 class="card-title fs-6 fw-normal m-0">MOON NO.1</h3>
+                  <span class="card-price fw-bold">$99</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <button class="btn btn-primary add-to-cart">
+                    Add to Cart
+                  </button>
+                  <button
+                    class="btn btn-secondary quick-view"
+                    data-bs-toggle="modal"
+                    data-bs-target="#quickViewModal1"
+                  >
+                    Quick View
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col mb-4">
+              <div class="product-card">
+                <div class="card-img">
+                  <img
+                    src="/Programming/OnlineShop_bootstrap/pic/Moon.jpg"
+                    alt="MOON NO.2"
+                    class="product-image img-fluid"
+                  />
+                </div>
+                <div
+                  class="card-detail d-flex justify-content-between align-items-center mt-3"
+                >
+                  <h3 class="card-title fs-6 fw-normal m-0">MOON NO.2</h3>
+                  <span class="card-price fw-bold">$120</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <button class="btn btn-primary add-to-cart">
+                    Add to Cart
+                  </button>
+                  <button
+                    class="btn btn-secondary quick-view"
+                    data-bs-toggle="modal"
+                    data-bs-target="#quickViewModal2"
+                  >
+                    Quick View
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col mb-4">
+              <div class="product-card">
+                <div class="card-img">
+                  <img
+                    src="/Programming/OnlineShop_bootstrap/pic/Moon.jpg"
+                    alt="MOON NO.3"
+                    class="product-image img-fluid"
+                  />
+                </div>
+                <div
+                  class="card-detail d-flex justify-content-between align-items-center mt-3"
+                >
+                  <h3 class="card-title fs-6 fw-normal m-0">MOON NO.3</h3>
+                  <span class="card-price fw-bold">$75</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <button class="btn btn-primary add-to-cart">
+                    Add to Cart
+                  </button>
+                  <button
+                    class="btn btn-secondary quick-view"
+                    data-bs-toggle="modal"
+                    data-bs-target="#quickViewModal3"
+                  >
+                    Quick View
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col mb-4">
+              <div class="product-card">
+                <div class="card-img">
+                  <img
+                    src="/Programming/OnlineShop_bootstrap/pic/Moon.jpg"
+                    alt="MOON NO.4"
+                    class="product-image img-fluid"
+                  />
+                </div>
+                <div
+                  class="card-detail d-flex justify-content-between align-items-center mt-3"
+                >
+                  <h3 class="card-title fs-6 fw-normal m-0">MOON NO.4</h3>
+                  <span class="card-price fw-bold">$150</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <button class="btn btn-primary add-to-cart">
+                    Add to Cart
+                  </button>
+                  <button
+                    class="btn btn-secondary quick-view"
+                    data-bs-toggle="modal"
+                    data-bs-target="#quickViewModal4"
+                  >
+                    Quick View
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="col mb-4">
+              <div class="product-card">
+                <div class="card-img">
+                  <img
+                    src="/Programming/OnlineShop_bootstrap/pic/Moon.jpg"
+                    alt="MOON NO.5"
+                    class="product-image img-fluid"
+                  />
+                </div>
+                <div
+                  class="card-detail d-flex justify-content-between align-items-center mt-3"
+                >
+                  <h3 class="card-title fs-6 fw-normal m-0">MOON NO.5</h3>
+                  <span class="card-price fw-bold">$40</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <button class="btn btn-primary add-to-cart">
+                    Add to Cart
+                  </button>
+                  <button
+                    class="btn btn-secondary quick-view"
+                    data-bs-toggle="modal"
+                    data-bs-target="#quickViewModal5"
+                  >
+                    Quick View
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="col mb-4">
+              <div class="product-card">
+                <div class="card-img">
+                  <img
+                    src="/Programming/OnlineShop_bootstrap/pic/Half.jpg"
+                    alt="HALF MOON NO.0"
+                    class="product-image img-fluid"
+                  />
+                </div>
+                <div
+                  class="card-detail d-flex justify-content-between align-items-center mt-3"
+                >
+                  <h3 class="card-title fs-6 fw-normal m-0">HALF MOON NO.0</h3>
+                  <span class="card-price fw-bold">$130</span>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <button class="btn btn-primary add-to-cart">
+                    Add to Cart
+                  </button>
+                  <button
+                    class="btn btn-secondary quick-view"
+                    data-bs-toggle="modal"
+                    data-bs-target="#quickViewModal6"
+                  >
+                    Quick View
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="shop.js"></script>
+
+        <!-- Quick View Modal -->
+        <div
+        class="modal fade"
+        id="quickViewModal"
+        tabindex="-1"
+        aria-labelledby="quickViewModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="quickViewTitle"></h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img id="quickViewImage" src="" alt="" class="img-fluid mb-3" />
+              <p id="quickViewDescription"></p>
+              <p id="quickViewPrice" class="fw-bold"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  </body>
+</html>

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Tiny';
+    src: url(/Font/Tiny5/Tiny5-Regular.ttf);
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
+}
+
+.swiper-slide {
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+
+.image-holder img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.image-holder:hover img {
+    transform: scale(1.1);
+}
+
+h1, h4, a {
+    font-family: 'Tiny';
+}

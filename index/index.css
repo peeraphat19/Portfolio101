@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url(/Font/Kanit/Kanit-Regular.ttf);
+}
+
+body {
+    font-family: 'kanit';
+    background-image: url(/Picture/galaxy.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #f7b6b7 !important; /* Link hover effect */
+}

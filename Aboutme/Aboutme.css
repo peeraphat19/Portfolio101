@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url(/Font/Kanit/Kanit-Regular.ttf);
+}
+
+body {
+    font-family: 'kanit';
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #E5A8DE !important; /* Link hover effect */
+}

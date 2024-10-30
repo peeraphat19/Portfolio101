@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Tiny';
+    src: url(/Font/Tiny5/Tiny5-Regular.ttf);
+}
+
+h1, h2, h4, a{
+    font-family: 'Tiny';
+}
+
+.discount-coupon .container {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.discount-coupon .coupon {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.discount-coupon .bold-text {
+    font-size: 60px;
+    color: rgba(255, 99, 71, 0.1);
+    top: 20px;
+    left: 20px;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.discount-coupon .coupon-header h2 {
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 700;
+    z-index: 2;
+    position: relative;
+}
+
+.discount-coupon .coupon-header p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.discount-coupon .btn-wrap .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.discount-coupon .btn-wrap .btn:hover {
+    background-color: #ff6347;
+}
+
+@media screen and (max-width:1000px) {
+    .discount-coupon .container {
+        max-width: 700px;
+        margin: auto;
+        text-align: left;
+    }
+}
